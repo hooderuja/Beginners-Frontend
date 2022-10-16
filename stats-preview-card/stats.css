@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #0e0014;
+}
+
+.main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 1500px;
+    height: 1500px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 550px;
+    height: 450px;
+    padding-right: 50px;
+    background-color: #18012b;
+    padding: 100px 0px;
+    padding-left: 50px;
+    padding-right: 100px;
+
+
+}
+
+.right {
+
+    width: 550px;
+    height: 450px;
+    background-image: url(female.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(75, 0, 82, 0.644);
+    background-blend-mode: multiply;
+}
+
+
+.box1 {
+   
+    white-space: wrap;
+    color: #fff;
+    font-size: 28px;
+}
+
+.boxx {
+    
+   
+    white-space: wrap;
+    color: #fff;
+    font-size: small;
+}
+
+.box2 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  
+  
+
+}
+
+.blocks {
+
+    padding-right: 65px;
+
+}
+
+.blocks h1 {
+
+    font-size: larger;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding-bottom: 5px;
+    color: #fff;
+
+
+}
+
+.blocks h2 {
+
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+   
+    color: rgb(146, 141, 141);
+
+}
+
+
+span {
+    color: rgb(137, 7, 212);
+}
+
